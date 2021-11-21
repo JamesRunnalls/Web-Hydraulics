@@ -1,0 +1,21 @@
+{
+  "name": "MathJax",
+  "version": "2.3.0",
+  "main": "./MathJax.js",
+  "homepage": "http://www.mathjax.org/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "unpacked",
+    "test",
+    "docs",
+    "config",
+    "localization",
+    "fonts",
+    "jax/output/!(HTML-CSS)",
+    "!jax/output/HTML-CSS/fonts/STIX/",
+    "jax/input/!(TeX)"
+  ],
+  "keywords": ["math", "js", "LaTeX", "MathML", "AsciiMath"]
+}

@@ -1,0 +1,23 @@
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+    
+    table{
+        position: relative;
+        page-break-inside: avoid;
+		
+    }
+    
+    div{
+        position: relative;
+        page-break-inside: avoid;
+    }
+    
+    html, body {
+        width: 100%;
+    }
+    
+}
